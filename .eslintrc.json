@@ -17,6 +17,7 @@
     "plugins": [
         "react"
     ],
+    "ignorePatterns": ["db/**"],
     "rules": {
         "no-console": "off",
         "react/prop-types": "off",
