@@ -5,7 +5,7 @@ import Content from '../components/Content';
 
 export default function PageTeams() {
   return (
-    <div className="bg01 w-screen h-screen p-6">
+    <div className="bg01 w-screen h-screen p-10 flex flex-col">
       <Head>
         <title>Moura Energy Game</title>
         <meta name="description" content="Bem vindo! Você está no Moura Energy Game" />

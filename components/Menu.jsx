@@ -3,7 +3,7 @@ import React from 'react';
 export default function Menu() {
   return (
     <nav>
-      <ul className="flex flex-row gap-10 text-branco text-xl p-5">
+      <ul className="flex flex-row gap-10 text-branco text-xl ">
         <li>Home</li>
         <li>Cadastro</li>
         <li>Atualizar Pontuação</li>
