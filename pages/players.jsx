@@ -6,8 +6,9 @@ import Content from '../components/Content';
 export default function PageTeams() {
   const mapping = {};
   mapping.ID = ['id', 'int'];
+  mapping.Nick = ['nick', 'string'];
   mapping.Nome = ['name', 'string'];
-  mapping['Data de criação'] = ['createdAt', 'date'];
+  mapping.Email = ['email', 'string'];
   return (
     <div className="bg01 w-screen h-screen p-10 flex flex-col">
       <Head>
@@ -17,7 +18,7 @@ export default function PageTeams() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Content title="Equipes" btnNew="Nova Equipe" placeholderSeach="Buscar Equipe" api="/api/teams" mapping={mapping} />
+      <Content title="Jogadores" btnNew="Novo Jogador" placeholderSeach="Buscar Jogador" api="/api/players" mapping={mapping} />
     </div>
   );
 }

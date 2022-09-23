@@ -12,6 +12,8 @@ module.exports = {
      * }], {});
     */
     const Teams = [
+      { name: 'DTISS' },
+      { name: 'DEV' },
       { name: 'Warriors' },
       { name: 'Zcoding' },
       { name: 'Mega' },
